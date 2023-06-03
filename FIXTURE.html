@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>MANUAL</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   p {
+  /*  text-indent: 30px;*/
+ text-transform: capitalize;
+}
+   
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ INSTALAR FIXTURE <br />
+ Y <br />
+ CARGAR TESTPLAN
+
+</h1>
+<b>pasos para instalacion</b>
+<p>
+    abrir ventana de bt basic <br />
+  
+</p>
+
+
+<img src="https://i.ibb.co/6mN1Gnw/IMG-20230429-112104.jpg" alt="IMG-20230429-112104" border="0">
+
+
+<img src="https://i.ibb.co/7JD8KbL/IMG-20230429-112127.jpg" alt="IMG-20230429-112127" border="0">
+<p>
+      escribir el comando teshead 1 y precionar enter
+    para habilitar la cabeza de pruebas
+</p>
+
+<img src="https://i.ibb.co/cQ1pbHY/IMG-20230429-112152.jpg" alt="IMG-20230429-112152" border="0">
+
+<img src="https://i.ibb.co/HCZXTSK/IMG-20230429-112208.jpg" alt="IMG-20230429-112208" border="0">
+<p>
+      escribir el comando fix lock,precionar enter
+       y presionar el pedal
+    para anclar el fixture
+</p>
+
+<img src="https://i.ibb.co/XWkpvfX/IMG-20230429-112255.jpg" alt="IMG-20230429-112255" border="0">
+
+
+<img src="https://i.ibb.co/M7q2NF0/IMG-20230429-112319.jpg" alt="IMG-20230429-112319" border="0">
+
+<img src="https://i.ibb.co/P1c7Nr1/IMG-20230429-112333.jpg" alt="IMG-20230429-112333" border="0">
+
+<p>
+      escribir el comando msi'ruta del testplan'
+      y precionar enter
+      </br> 
+    para direccionar a la carpeta del testplan
+</p>
+
+<img src="https://i.ibb.co/0rCGnyf/IMG-20230429-112417.jpg" alt="IMG-20230429-112417" border="0">
+
+<p>
+      escribir el comando cat y precionar enter
+      </br> 
+    para mostrar los archivos de la carpeta y validar que este el archivo del testplan
+</p>
+
+
+
+<img src="https://i.ibb.co/zrXdZQR/IMG-20230429-112443.jpg" alt="IMG-20230429-112443" border="0">
+<p>
+      escribir el comando get"testplan" y precionar enter
+      </br> 
+    para cargar el testplan
+</p>
+
+
+<img src="https://i.ibb.co/m4Gc5h2/IMG-20230429-112509.jpg" alt="IMG-20230429-112509" border="0">
+    
+    <p>
+      escribir el comando load board y precionar enter
+      </br> 
+    para cargar parametros
+</p>
+    
+    
+<img src="https://i.ibb.co/qWkpmM7/IMG-20230429-112525.jpg" alt="IMG-20230429-112525" border="0">
+
+
+<p>
+      escribir el clear nrun y precionar enter
+      </br> 
+    para limpiar errores guardados en corrida anterior
+</p>
+
+
+<img src="https://i.ibb.co/WW9fSdm/IMG-20230429-112549.jpg" alt="IMG-20230429-112549" border="0">
+
+<p>
+      escribir run y precionar enter</br> 
+    para iniciar la prueba
+</p>
+
+ 
+<img src="https://i.ibb.co/YZjTDYx/IMG-20230429-112600.jpg" alt="IMG-20230429-112600" border="0">
+
+<b>nota</b>
+<p>
+algunos modelos solicitan revicion antes de iniciar la prueba </p>
+ 
+<img src="https://i.ibb.co/tXmyyqP/IMG-20230603-111057.jpg" alt="IMG-20230603-111057" border="0">
+ 
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
