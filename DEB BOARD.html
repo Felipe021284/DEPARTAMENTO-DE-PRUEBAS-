@@ -1,0 +1,330 @@
+<!-- creado por felipe martinez-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>MANUAL</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   p {
+  /*  text-indent: 30px;*/
+ text-transform: capitalize;
+}
+   
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>COMO USAR <br />DEB BOARD
+
+</h1>
+
+<b>la aplicacion deb board se puede usar para realizar las pruebas por etapas o para debugear componentes</b>
+
+<p>
+    para abrir la aplicacion es necesario parar la prueba con la obcion de stop de la pantalla de basic
+</p>
+
+<img src="https://i.ibb.co/ZLPJTCr/1.jpg" alt="1" border="0">
+
+
+<img src="https://i.ibb.co/87B2n1t/2.jpg" alt="2" border="0">
+<p>
+    escribir el comando deb board,dar enter y esperar un momento
+</p>
+
+<img src="https://i.ibb.co/sq0b0DN/1.jpg" alt="1" border="0">
+
+<p>
+despues de un momento aparecera la pantalla principal
+
+<img src="https://i.ibb.co/GRCRTCr/2.jpg" alt="2" border="0">
+
+
+<p>
+    para realizar las pruebas por etapas es necesario ir a la opcion testplan macros
+</p>
+
+
+<img src="https://i.ibb.co/2qN7P0y/3.jpg" alt="3" border="0">
+
+<p>
+    una vez seleccionado la opcion testplan macros,se despliega las opciones de pruebas por etapas y se deben de comenzar a realizar de arriba hacia abajo, es mas comun que los componentes a debugear fallen en la etapa de analogos
+</p>
+
+
+<img src="https://i.ibb.co/vcc5YHs/4.jpg" alt="4" border="0">
+
+<p>
+los componentes que fallen se mostraran en una lista a lado izquierdo
+</p>
+
+
+<img src="https://i.ibb.co/fkHRjxR/5.jpg" alt="5" border="0">
+
+<p>
+    para comenzar a debugear un componente procede a selecionar de la lista seccionando  las siguientes opciones<br />
+    debug  <br />
+    debug selected test
+    
+</p>
+<img src="https://i.ibb.co/Lz4QJgV/6.jpg" alt="6" border="0">
+
+<img src="https://i.ibb.co/sP8myKY/7.jpg" alt="7" border="0">
+
+<p>
+posteriormente se mostrara una ventana con la informacion del componente <br />
+proceder a buscar la sintaxis de configuracion
+    
+</p>
+
+<img src="https://i.ibb.co/S0x2XYs/8.jpg" alt="8" border="0">
+
+
+<img src="https://i.ibb.co/5KbfFFK/9.jpg" alt="9" border="0">
+
+<p>
+    la sintaxis de configuracion del componente muestra varios valores <br />
+    proceder a validar modicando el valor de re
+</p>
+<img src="https://i.ibb.co/vVRLTkC/10.jpg" alt="10" border="0">
+
+<p>
+    la sintaxis de configuracion del componente muestra varios valores <br />
+    al proceder a modicar este valor cambias el valor de low limit 
+</p>
+
+
+<img src="https://i.ibb.co/dmv34PX/11.jpg" alt="11" border="0">
+
+<p>
+    la sintaxis de configuracion del componente muestra varios valores <br />
+    al proceder a modicar este valor cambias el valor de hight limit 
+</p>
+
+<img src="https://i.ibb.co/BTv2zKq/12.jpg" alt="12" border="0">
+
+<p>
+    cada que se modifique un valor debemos correr la prueba del componente en compile and go para validar 
+</p>
+
+<img src="https://i.ibb.co/30q7BCM/13.jpg" alt="13" border="0">
+
+<p>si la unida falla proceder a modificar el valor que se debugeo
+<br /><br />
+si la unidad paso se procede a compilar y guardar los cambios
+
+</p>
+
+
+<img src="https://i.ibb.co/1XpVWrp/14.jpg" alt="14" border="0">
+
+<img src="https://i.ibb.co/bNty0Wr/15.jpg" alt="15" border="0">
+
+<p>
+    para compilar los cambios se deben de seguir los siguientes pasos <br />
+    seleccionar la opcion debug <br />
+    seleccionar la opcion compile test <br />
+    aparecera una ventana <br />
+    seleccionar yes <br />
+    
+   aparecera una ventana <br />
+   seleccionar ok <br />
+   validar la leyenda object produced en la ventana de basic
+    
+</p>
+
+<img src="https://i.ibb.co/0X1CH9D/16.jpg" alt="16" border="0">
+
+
+<img src="https://i.ibb.co/jTHvZpk/17.jpg" alt="17" border="0">
+
+
+<img src="https://i.ibb.co/7ybXKqz/18.jpg" alt="18" border="0">
+
+<img src="https://i.ibb.co/Z8Qzw8S/19.jpg" alt="19" border="0">
+
+
+<p>
+    una vez compilado se procede a guardar los cambios <br />
+    seleccionar opcion file <br />
+    seleccionar opcion save
+    
+    
+</p>
+<img src="https://i.ibb.co/0GYNF9h/20.jpg" alt="20" border="0">
+
+
+    <p>
+    para debugear otro componente de la lista <br />
+    seleccionar opcion debug <br />
+    seleccionar opcion debug board
+    
+    
+
+
+<img src="https://i.ibb.co/PTbynd6/21.jpg" alt="21" border="0">
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
